@@ -2,7 +2,6 @@ import React,{useState,useEffect} from "react"
 import "./App.css"
 import axios from "axios"
 import { Container,Row,Col } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import Profile from "./components/Profile"
 import Navbar from "./components/Navbar"
 

@@ -1,9 +1,6 @@
 import React from 'react'
 import { LocationCity,Event,AccountCircle,Work} from '@material-ui/icons';
-import { Card,Nav,Button } from 'react-bootstrap';
-import Controller from "./Controller"
-
-
+import { Card,Button } from 'react-bootstrap';
 
 const Profile = (props) => {
     const {name,city,age,profession} = props.dados
@@ -13,8 +10,8 @@ const Profile = (props) => {
             <Card.Body>
                 <Card.Text><AccountCircle />{name}</Card.Text>
                 <Card.Text><LocationCity />{city}</Card.Text>
-                <Card.Text><AccountCircle />{age}</Card.Text>
-                <Card.Text><AccountCircle />{profession}</Card.Text>
+                <Card.Text><Event />{age}</Card.Text>
+                <Card.Text><Work />{profession}</Card.Text>
                 <Button>Teste</Button>
             </Card.Body>            
         </Card>
